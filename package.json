@@ -1,0 +1,31 @@
+{
+  "name": "jdn-utils",
+  "version": "1.0.0",
+  "description": "javascript utility and custom hooks to help speed development process for engineers",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devjoemedia/jdn-utils.git",
+    "directory": "packages/cli"
+  },
+  "keywords": [
+    "utility",
+    "hooks",
+    "helpers"
+  ],
+  "author": "Joseph Nartey Djangmah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devjoemedia/jdn-utils/issues"
+  },
+  "homepage": "https://github.com/devjoemedia/jdn-utils#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "@types/react": "^18.3.1",
+    "react": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}
