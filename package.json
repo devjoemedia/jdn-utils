@@ -2,7 +2,7 @@
   "name": "jdn-utils",
   "version": "1.0.0",
   "description": "javascript utility and custom hooks to help speed development process for engineers",
-  "main": "index.ts",
+  "main": "app/index.ts",
   "scripts": {
     "dev": "tsc --watch"
   },

@@ -53,36 +53,26 @@ cd path/to/folder
 2. Clone this repository using [Git](https://git-scm.com/) commands
 
 ```bash
-git clone https://github.com/ckenx/kenx-node
+git clone https://github.com/devjoemedia/jdn-utils
 cd /kenx-node
 ```
 
 3. Install the project dependencies 
 
 ```bash
-npm install
-```
-or
-
-```bash
-yarn install
+pnpm install
 ```
 
 4. Run the project
 
 ```bash
-npm run dev
-```
-or
-
-```bash
-yarn dev
+pnpm run dev
 ```
 
 …and open <http://localhost:8008> in your web browser. You can customize the default port by setting `PORT` in your environment variables
 
 ## Community
 
-Discussions about Kenx-node take place on this repository's [Issues](https://github.com/ckenx/kenx-node/issues) and [Pull Requests](https://github.com/ckenx/kenx-node/pulls) sections. Anybody is welcome to join these conversations.
+Discussions about Kenx-node take place on this repository's [Issues](https://github.com/devjoemedia/jdn-utils/issues) and [Pull Requests](https://github.com/ckenx/kenx-node/pulls) sections. Anybody is welcome to join these conversations.
 
 Wherever possible, do not take these conversations to private channels, including contacting the maintainers directly. Keeping communication public means everybody can benefit and learn from the conversation.
