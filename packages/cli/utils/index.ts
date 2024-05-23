@@ -1,0 +1,1 @@
+export { default as toUppercase } from './toUppercase'

@@ -2,9 +2,25 @@
   "name": "cli",
   "version": "1.0.0",
   "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "node dist/index.js",
+    "build": "tsc -watch"
+  },
+  "bin": {
+    "jdn-utils": "dist/index.js"
+  },
   "license": "MIT",
   "devDependencies": {
+    "cross-spawn": "^7.0.3",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2",
     "typescript": "^5.4.5"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@types/cross-spawn": "^6.0.6",
+    "@types/minimist": "^1.2.5",
+    "@types/prompts": "^2.4.9"
+  }
 }

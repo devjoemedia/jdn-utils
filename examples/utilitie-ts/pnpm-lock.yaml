@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      jdn-utils:
+        specifier: ^1.0.0
+        version: 1.0.0
     devDependencies:
       typescript:
         specifier: ^5.2.2
@@ -248,6 +252,9 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
+  jdn-utils@1.0.0:
+    resolution: {integrity: sha512-dpmB2QVC49NmFxGEXasLaNkEevJGkLyd44hMmLIQsaND5n+gzDV5Tc8rOsMoR2EmnA8q21JhNIX14YwESY0Otg==}
+
   nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -451,6 +458,8 @@ snapshots:
 
   fsevents@2.3.3:
     optional: true
+
+  jdn-utils@1.0.0: {}
 
   nanoid@3.3.7: {}
 
