@@ -21,6 +21,7 @@
   "dependencies": {
     "@types/cross-spawn": "^6.0.6",
     "@types/minimist": "^1.2.5",
-    "@types/prompts": "^2.4.9"
+    "@types/prompts": "^2.4.9",
+    "ts-node": "^10.9.2"
   }
 }

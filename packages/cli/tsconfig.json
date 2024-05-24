@@ -1,16 +1,18 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "isolatedModules": false,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "module": "ES2020",
+    "module": "ESNext",
     "outDir": "./dist",
+    "rootDir": "./src",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
     },
-    "forceConsistentCasingInFileNames": true, 
+    "noEmit": false,
+    "allowImportingTsExtensions": false,
+    "target": "ES6"
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]

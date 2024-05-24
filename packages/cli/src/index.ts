@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 import minimist from "minimist";
 import prompts from "prompts";
 import { reset } from "kolorist";
-import { ALL_REGISTRIES, HOOK_REGISTRY } from "./registry/index.js";
+import { HOOK_REGISTRY } from "./registry/index.js";
 
 const [, , ...args] = process.argv;
 
